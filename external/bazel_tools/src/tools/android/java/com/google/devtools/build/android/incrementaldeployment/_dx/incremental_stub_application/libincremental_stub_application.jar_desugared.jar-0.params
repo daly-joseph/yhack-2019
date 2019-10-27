@@ -1,0 +1,11 @@
+--input
+bazel-out/arm64-v8a-opt/bin/external/bazel_tools/src/tools/android/java/com/google/devtools/build/android/incrementaldeployment/libincremental_stub_application.jar
+--output
+bazel-out/arm64-v8a-opt/bin/external/bazel_tools/src/tools/android/java/com/google/devtools/build/android/incrementaldeployment/_dx/incremental_stub_application/libincremental_stub_application.jar_desugared.jar
+--classpath_entry
+bazel-out/arm64-v8a-opt/bin/external/bazel_tools/src/tools/android/java/com/google/devtools/build/android/incrementaldeployment/libincremental_stub_application-hjar.jar
+--bootclasspath_entry
+bazel-out/host/bin/external/bazel_tools/tools/android/java_lang_extras.jar
+--bootclasspath_entry
+external/androidsdk/platforms/android-29/android.jar
+--emit_dependency_metadata_as_needed

@@ -1,0 +1,9 @@
+--output
+bazel-out/arm64-v8a-opt/bin/mediapipe/examples/android/src/java/com/google/mediapipe/apps/handtrackinggpu/_mobile_install/handtrackinggpu/stub_deploy.jar
+--normalize
+--build_info_file
+bazel-out/arm64-v8a-opt/include/build-info-redacted.properties
+--exclude_build_data
+--sources
+bazel-out/arm64-v8a-opt/bin/external/bazel_tools/src/tools/android/java/com/google/devtools/build/android/incrementaldeployment/_dx/incremental_stub_application/libincremental_stub_application.jar_desugared.jar,@@bazel_tools//src/tools/android/java/com/google/devtools/build/android/incrementaldeployment:incremental_stub_application
+--check_desugar_deps
